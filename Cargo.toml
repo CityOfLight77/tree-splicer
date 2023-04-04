@@ -1,8 +1,9 @@
-[workspace] 
+[workspace]
 members = [
     "crates/tree-splicer",
     "crates/tree-splicer-javascript",
     "crates/tree-splicer-rust",
+    "crates/tree-splicer-solidity",
     "crates/tree-splicer-typescript",
 ]
 

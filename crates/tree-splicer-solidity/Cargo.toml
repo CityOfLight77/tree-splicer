@@ -1,0 +1,17 @@
+[package]
+name = "tree-splicer-solidity"
+description = "Simple grammar-based solidity program generator"
+version = "0.3.1"
+keywords = ["black-box", "fuzzer", "grammar-based", "solidity"]
+edition = "2021"
+authors = ["Langston Barrett <langston.barrett@gmail.com>"]
+license = "MIT"
+readme = "../../README.md"
+homepage = "https://github.com/langston-barrett/tree-splicer"
+repository = "https://github.com/langston-barrett/tree-splicer"
+
+[dependencies]
+anyhow = "1"
+tree-splicer = { version = "0.3.1", path = "../tree-splicer", features = ["cli"] }
+# tree-sitter-solidity = "0.0.3"
+tree-sitter-solidity = { git = "https://github.com/selfint/tree-sitter-solidity" }
